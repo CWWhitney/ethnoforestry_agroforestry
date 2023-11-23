@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T10:20:54.190Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="_7eDPyML7TOgGgJZU4u4" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T10:22:05.019Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TLLOFITrVdamcuivDYki" version="22.1.3" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1383" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -178,10 +178,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-14" value="Further diversification&lt;br&gt;Increased B.D.&lt;br&gt;Locally designed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="870" y="300" width="150" height="60" as="geometry" />
+          <mxGeometry x="850" y="310" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-15" value="Multi-use&lt;br&gt;Improved management&lt;br&gt;Community benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="620" y="200" width="150" height="60" as="geometry" />
+          <mxGeometry x="640" y="200" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Managing trees and the human and biodiversity outcomes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="75" y="30" width="520" height="40" as="geometry" />
@@ -207,7 +207,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-17" value="Timber generation focused tree management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="160" width="150" height="60" as="geometry" />
+          <mxGeometry x="380" y="190" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-18" value="Forest to tree management continuum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-80" y="371" width="280" height="60" as="geometry" />
