@@ -30,13 +30,11 @@ Ethnoforestry is the study and practice of the relationship between people and f
 
 ### Books
 
-1. "Ethnoforestry: Local Knowledge for Sustainable Forestry and Livelihood Security" by John R. Stepp
-2. "Agroforestry: An Integrated Land Use Management" by Shibu Jose and R. K. Mehrotra
+...
 
 ### Articles
 
-1. "Traditional Agroforestry Practices in Sustainable Land Management" - [Link](#)
-2. "Ethnoforestry and Cultural Ecosystem Services" - [Link](#)
+...
 
 ### Websites
 
