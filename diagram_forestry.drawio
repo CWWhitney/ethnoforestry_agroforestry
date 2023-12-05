@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T15:04:11.420Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NdfouMAw3aUH7HupadtT" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T15:06:39.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IA8YDSAq7n83OznwX02A" version="22.1.5" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1449" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="430" y="80" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-11" value="&lt;span&gt;Spiritual&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="730" y="110" width="100" height="20" as="geometry" />
+          <mxGeometry x="700" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-12" value="Habitat" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="980" y="500" width="100" height="20" as="geometry" />
@@ -46,7 +46,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-17" value="&lt;span&gt;Medicine&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="180" width="100" height="20" as="geometry" />
+          <mxGeometry x="1000" y="200" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-22" value="&lt;span&gt;Markets&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="850" y="560" width="100" height="20" as="geometry" />
@@ -103,7 +103,7 @@
           <mxGeometry x="140" y="425" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-59" value="&lt;span&gt;Trees&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="730" y="320" width="100" height="20" as="geometry" />
+          <mxGeometry x="470" y="280" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-61" value="economic" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="2c924340bb9dbf6c-2" target="2c924340bb9dbf6c-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -129,7 +129,7 @@
             <mxPoint x="598.3017982586489" y="538.3544492230378" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2c924340bb9dbf6c-78" value="Timber" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;" parent="1" target="2c924340bb9dbf6c-59" edge="1">
+        <mxCell id="2c924340bb9dbf6c-78" value="Timber" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" target="2c924340bb9dbf6c-59" edge="1" source="2c924340bb9dbf6c-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="360" as="sourcePoint" />
           </mxGeometry>
@@ -165,18 +165,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VTU-Ny0mh2Q2PfWyq8oL-11" target="2c924340bb9dbf6c-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-11" value="&lt;span&gt;Maintain Culture&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="230" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-12" value="community" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="2c924340bb9dbf6c-3" target="VTU-Ny0mh2Q2PfWyq8oL-11" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1022" y="210" as="sourcePoint" />
-            <mxPoint x="1000" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-14" value="Further diversification&lt;br&gt;Increased B.D.&lt;br&gt;Locally designed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="310" width="150" height="60" as="geometry" />
         </mxCell>
@@ -207,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-17" value="Timber generation focused tree management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="380" y="190" width="150" height="60" as="geometry" />
+          <mxGeometry x="370" y="220" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-18" value="Forest to tree management continuum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="-80" y="371" width="280" height="60" as="geometry" />
