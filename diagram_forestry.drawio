@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T15:06:39.267Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IA8YDSAq7n83OznwX02A" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T15:16:28.279Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7MFa-vCjqdsz2edOFgFb" version="22.1.5" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1449" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -140,7 +140,7 @@
             <mxPoint x="30" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zUpzmHAXkHMhplHrmujM-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Forestation and biodiversity&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontStyle=1" parent="zUpzmHAXkHMhplHrmujM-2" vertex="1" connectable="0">
+        <mxCell id="zUpzmHAXkHMhplHrmujM-4" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Biodiversity&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontStyle=1" parent="zUpzmHAXkHMhplHrmujM-2" vertex="1" connectable="0">
           <mxGeometry x="-0.1559" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -198,7 +198,7 @@
           <mxGeometry x="370" y="220" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-18" value="Forest to tree management continuum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="371" width="280" height="60" as="geometry" />
+          <mxGeometry x="-81.75" y="390.25" width="280" height="21.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
