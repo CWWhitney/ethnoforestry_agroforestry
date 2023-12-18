@@ -13,9 +13,6 @@ Welcome to the Ethnoforestry and Agroforestry Collection! This repository is ded
 2. [Introduction to Agroforestry](#introduction-to-agroforestry)
 3. [Key Concepts](#key-concepts)
 4. [Resources](#resources)
-   - [Books](#books)
-   - [Articles](#articles)
-   - [Websites](#websites)
 7. [License](#license)
 
 ## Ethnoforestry and Agroforestry
@@ -31,18 +28,18 @@ Ethnoforestry is the study and practice of the relationship between people and f
 
 ## Resources
 
-### Books
+[Status and trends in forest management](https://www.fao.org/3/w9950e/w9950e03.htm)
 
-...
+[terra-i](http://www.terra-i.org/terra-i.html)
 
-### Articles
+[Geo-trees](https://data.geo-trees.org/): Global forest plot data for earth observation and land surface modelling from the GEO-TREES initiative
 
-...
+ata from the University of Maryland and available on [WRI’s Global Forest Watch platform](https://www.globalforestwatch.org/map/?utm_campaign=treecoverloss2022&utm_medium=bitly&utm_source=GlobalForestReview)
 
-### Websites
+Pendrill et al. (2019). Agricultural and forestry trade drives large share of tropical
+deforestation emissions.
 
-- [World Agroforestry Centre](https://www.worldagroforestry.org/)
-- [Ethnoforestry Resources Hub](https://www.ethnoforestry.org/)
+UN Food and Agriculture Organization (FAO). [Forest Resources Assessment](https://fra-data.fao.org/).
 
 ## License
 
