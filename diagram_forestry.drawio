@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T10:45:22.242Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="BcrOZkgzxryONjfYIIXx" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T10:57:06.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="20RoEPs8l30192eUwJDZ" version="24.3.1" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="1043" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="300" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-3" value="Community &lt;br&gt;forests" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="660" y="190" width="120" height="80" as="geometry" />
+          <mxGeometry x="680" y="190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-5" value="&lt;span&gt;Agroforestry&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="750" y="340" width="120" height="80" as="geometry" />
+          <mxGeometry x="740" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-8" value="&lt;span&gt;Long rotation&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="98.25" y="159" width="100" height="20" as="geometry" />
@@ -191,7 +191,7 @@
           <mxGeometry x="110" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-18" value="Forest to tree management continuum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="390.25" width="280" height="21.5" as="geometry" />
+          <mxGeometry x="-15.87" y="540" width="151.75" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="wuwPYw-ojKWmZ08k9aOV-1" value="Protected areas (parks)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="480" y="190" width="120" height="80" as="geometry" />
@@ -221,7 +221,7 @@
           <mxGeometry x="400" y="90" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wuwPYw-ojKWmZ08k9aOV-14" value="habitat, connectivity, biodiversity, ecosystem integrity&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="330.25" width="400" height="21.5" as="geometry" />
+          <mxGeometry x="-30" y="190" width="180" height="21.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
