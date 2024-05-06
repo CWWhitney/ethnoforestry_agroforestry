@@ -44,3 +44,7 @@ UN Food and Agriculture Organization (FAO). [Forest Resources Assessment](https:
 ## License
 
 This collection is licensed under the [MIT License](LICENSE).
+
+# Draw.io 
+
+https://app.diagrams.net/#HCWWhitney%2Fethnoforestry_agroforestry%2Fmain%2Fdiagram_forestry.drawio#%7B%22pageId%22%3A%22ad52d381-51e7-2e0d-a935-2d0ddd2fd229%22%7D
