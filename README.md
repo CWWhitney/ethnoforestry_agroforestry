@@ -1,5 +1,9 @@
 # Ethnoforestry and Agroforestry
 
+Figure Ethnoforestry v2
+![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/9bf003ff-bc82-435b-be82-18eff4c672d4)
+
+Figure Ethnoforestry v1
 <img width="1121" alt="Screenshot 2023-11-23 at 9 51 05 AM" src="https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/faae3ead-e31f-4377-b418-a28f58c6f668">
 
 
