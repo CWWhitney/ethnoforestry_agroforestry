@@ -1,12 +1,5 @@
 # Ethnoforestry and Agroforestry
 
-Figure Ethnoforestry v2
-![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/9bf003ff-bc82-435b-be82-18eff4c672d4)
-
-Figure Ethnoforestry v1
-<img width="1121" alt="Screenshot 2023-11-23 at 9 51 05 AM" src="https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/faae3ead-e31f-4377-b418-a28f58c6f668">
-
-
 ## Overview
 
 Welcome to the Ethnoforestry and Agroforestry Collection! This repository is dedicated to gathering resources, tools, and information related to ethnoforestry and agroforestry practices. Whether you're a researcher, practitioner, or just curious about these sustainable land management approaches, this collection aims to provide a comprehensive guide.
@@ -23,6 +16,12 @@ Welcome to the Ethnoforestry and Agroforestry Collection! This repository is ded
 
 Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management. This section provides an overview of the principles and significance of ethnoforestry. Agroforestry is an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. This section explores the benefits, types, and implementation of agroforestry systems.
 
+Figure Ethnoforestry v2
+![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/aca59739-cb18-451a-a0ed-f2ee12acdcca)
+
+Figure Ethnoforestry v1
+<img width="1121" alt="Screenshot 2023-11-23 at 9 51 05 AM" src="https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/faae3ead-e31f-4377-b418-a28f58c6f668">
+
 ## Key Concepts
 
 - **Biodiversity Conservation:** How ethnoforestry and agroforestry contribute to the conservation of biodiversity.
@@ -38,7 +37,7 @@ Ethnoforestry is the study and practice of the relationship between people and f
 
 [Geo-trees](https://data.geo-trees.org/): Global forest plot data for earth observation and land surface modelling from the GEO-TREES initiative
 
-ata from the University of Maryland and available on [WRI’s Global Forest Watch platform](https://www.globalforestwatch.org/map/?utm_campaign=treecoverloss2022&utm_medium=bitly&utm_source=GlobalForestReview)
+Data from the University of Maryland and available on [WRI’s Global Forest Watch platform](https://www.globalforestwatch.org/map/?utm_campaign=treecoverloss2022&utm_medium=bitly&utm_source=GlobalForestReview)
 
 Pendrill et al. (2019). Agricultural and forestry trade drives large share of tropical
 deforestation emissions.
