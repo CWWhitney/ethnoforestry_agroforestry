@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T10:57:06.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="20RoEPs8l30192eUwJDZ" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T05:13:35.394Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="g2nK7pAXpm9B9C_azx1c" version="24.3.1" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
-    <mxGraphModel dx="1043" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1104" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="300" y="310" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-3" value="Community &lt;br&gt;forests" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="680" y="190" width="120" height="80" as="geometry" />
+          <mxGeometry x="625" y="190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-5" value="&lt;span&gt;Agroforestry&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="740" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="695" y="351.75" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-8" value="&lt;span&gt;Long rotation&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="98.25" y="159" width="100" height="20" as="geometry" />
@@ -26,24 +26,19 @@
           <mxGeometry x="700" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-13" value="&lt;span&gt;Fruit trees&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="940" y="411.75" width="100" height="20" as="geometry" />
+          <mxGeometry x="852" y="411.75" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-14" value="&lt;span&gt;Burial&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="810" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-15" value="&lt;span&gt;Food forests&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="930" y="90" width="100" height="20" as="geometry" />
+          <mxGeometry x="842" y="138" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-16" value="&lt;span&gt;Hunting&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="980" y="140" width="100" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="04DD3Ct90BNEKzkZGaE_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2c924340bb9dbf6c-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1050" y="210" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="843" y="217" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-17" value="&lt;span&gt;Medicine&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="200" width="100" height="20" as="geometry" />
+          <mxGeometry x="833" y="297" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-27" value="economic" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="2c924340bb9dbf6c-2" target="2c924340bb9dbf6c-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -51,7 +46,7 @@
         <mxCell id="2c924340bb9dbf6c-29" value="" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="2c924340bb9dbf6c-2" target="2c924340bb9dbf6c-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-8" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;economic&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2c924340bb9dbf6c-29">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-8" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;economic&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2c924340bb9dbf6c-29" vertex="1" connectable="0">
           <mxGeometry x="-0.0339" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -59,7 +54,7 @@
         <mxCell id="2c924340bb9dbf6c-30" value="" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="2c924340bb9dbf6c-2" target="2c924340bb9dbf6c-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-7" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;economic&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2c924340bb9dbf6c-30">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-7" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;economic&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2c924340bb9dbf6c-30" vertex="1" connectable="0">
           <mxGeometry x="0.1165" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -99,7 +94,7 @@
           <mxGeometry x="100" y="460" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-59" value="&lt;span&gt;Alley-cropping&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="480" y="350" width="100" height="20" as="geometry" />
+          <mxGeometry x="470" y="400" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2c924340bb9dbf6c-61" value="economic" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="2c924340bb9dbf6c-2" target="2c924340bb9dbf6c-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -153,7 +148,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="04DD3Ct90BNEKzkZGaE_-2" value="&lt;span&gt;Bushes, &lt;br&gt;hedges&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
-          <mxGeometry x="790" y="540" width="100" height="30" as="geometry" />
+          <mxGeometry x="820" y="540" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="04DD3Ct90BNEKzkZGaE_-3" value="pollinators, &lt;br&gt;habitat" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2c924340bb9dbf6c-5" target="04DD3Ct90BNEKzkZGaE_-2" edge="1">
           <mxGeometry x="-0.0022" relative="1" as="geometry">
@@ -162,7 +157,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VTU-Ny0mh2Q2PfWyq8oL-15" value="Multi-use&lt;br&gt;Improved management&lt;br&gt;Community benefits" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="250" width="150" height="60" as="geometry" />
+          <mxGeometry x="576" y="285" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Managing trees and the implications for human and biodiversity outcomes in the tropics&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="54" y="30" width="780" height="40" as="geometry" />
@@ -193,35 +188,44 @@
         <mxCell id="aU5DKYf4XFUTPq88nrZZ-18" value="Forest to tree management continuum" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="-15.87" y="540" width="151.75" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-1" value="Protected areas (parks)" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="480" y="190" width="120" height="80" as="geometry" />
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-1" value="Conservation i.e. Parks, Afforestation, Reforestation" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="415" y="190" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-2" value="&lt;span&gt;Conservation&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="280" y="80" width="100" height="20" as="geometry" />
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-2" value="&lt;span&gt;Wildlife corridors&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="280" y="80" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-3" value="" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="1" target="wuwPYw-ojKWmZ08k9aOV-2" source="wuwPYw-ojKWmZ08k9aOV-1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-3" value="" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="wuwPYw-ojKWmZ08k9aOV-1" target="wuwPYw-ojKWmZ08k9aOV-2" edge="1">
           <mxGeometry x="0.0124" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="635" y="210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-4" value="ease-of-management (effort, labor), livelihoods, ecosystem services, gender, nutrition, provisioning services (medicine, forage, food, timber, firewood)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-4" value="ease-of-management (effort, labor), livelihoods, ecosystem services, gender, nutrition, provisioning services (medicine, forage, food, timber, firewood)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="630" width="840" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-5" value="&lt;span&gt;Recreation&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-5" value="&lt;span&gt;Recreation&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="570" y="80" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-6" value="well-being" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" edge="1" parent="1" target="wuwPYw-ojKWmZ08k9aOV-5" source="wuwPYw-ojKWmZ08k9aOV-1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-6" value="well-being" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" source="wuwPYw-ojKWmZ08k9aOV-1" target="wuwPYw-ojKWmZ08k9aOV-5" edge="1">
           <mxGeometry x="0.0124" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="590" y="140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-9" value="Conservation-oriented tree management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-9" value="Conservation-oriented tree management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="90" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wuwPYw-ojKWmZ08k9aOV-14" value="habitat, connectivity, biodiversity, ecosystem integrity&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+        <mxCell id="wuwPYw-ojKWmZ08k9aOV-14" value="habitat, connectivity, biodiversity, ecosystem integrity&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="-30" y="190" width="180" height="21.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Ea0G0bBxaTS6QnoleUmn-3" value="Habitat restoration" style="whiteSpace=wrap;html=1;rounded=1;shadow=1;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ea0G0bBxaTS6QnoleUmn-4" value="" style="edgeStyle=none;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeColor=#B3B3B3;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" target="Ea0G0bBxaTS6QnoleUmn-3" source="wuwPYw-ojKWmZ08k9aOV-1">
+          <mxGeometry x="0.0124" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="351.75" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
