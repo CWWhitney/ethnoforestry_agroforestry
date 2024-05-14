@@ -4,14 +4,6 @@
 
 Welcome to the Ethnoforestry and Agroforestry Collection! This repository is dedicated to gathering resources, tools, and information related to ethnoforestry and agroforestry practices. Whether you're a researcher, practitioner, or just curious about these sustainable land management approaches, this collection aims to provide a comprehensive guide.
 
-## Table of Contents
-
-1. [Introduction to Ethnoforestry](#introduction-to-ethnoforestry)
-2. [Introduction to Agroforestry](#introduction-to-agroforestry)
-3. [Key Concepts](#key-concepts)
-4. [Resources](#resources)
-7. [License](#license)
-
 ## Ethnoforestry and Agroforestry
 
 Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management. Agroforestry is an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. 
