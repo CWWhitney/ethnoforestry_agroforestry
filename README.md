@@ -14,7 +14,7 @@ Welcome to the Ethnoforestry and Agroforestry Collection! This repository is ded
 
 ## Ethnoforestry and Agroforestry
 
-Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management. This section provides an overview of the principles and significance of ethnoforestry. Agroforestry is an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. This section explores the benefits, types, and implementation of agroforestry systems.
+Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management. Agroforestry is an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. 
 
 Figure Ethnoforestry v2
 ![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/b1f80d11-6123-46ac-a8d2-304ec2bd2a9a)
@@ -36,8 +36,7 @@ Figure Ethnoforestry v2
 
 Data from the University of Maryland and available on [WRI’s Global Forest Watch platform](https://www.globalforestwatch.org/map/?utm_campaign=treecoverloss2022&utm_medium=bitly&utm_source=GlobalForestReview)
 
-Pendrill et al. (2019). Agricultural and forestry trade drives large share of tropical
-deforestation emissions.
+Pendrill et al. (2019). Agricultural and forestry trade drives large share of tropical deforestation emissions.
 
 UN Food and Agriculture Organization (FAO). [Forest Resources Assessment](https://fra-data.fao.org/).
 
