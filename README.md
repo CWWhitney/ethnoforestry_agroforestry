@@ -11,27 +11,27 @@ Figure Ethnoforestry v2
 
 ## Forest management ethnoforestry practices 
 
-Non-Resource management
-Silviculture
-Urban forests
-Community forests
-Agroforestry
+- Non-Resource management
+- Silviculture
+- Urban forests
+- Community forests
+- Agroforestry
 
 ## Biodiversity (benefits to nature)
 
-Habitat
-Habitat connectivity
-Biodiversity
-Ecosystem integrity
+- Habitat
+- Habitat connectivity
+- Biodiversity
+- Ecosystem integrity
 
 ## Human development (benefits to humans)
 
-livelihoods,
-ease-of-management (effort, labor)
-ecosystem services,
-gender,
-nutrition,
-provisioning services (medicine, forage, food, timber, firewood)
+- Livelihoods,
+- Ease-of-management (effort, labor)
+- Ecosystem services
+- Gender
+- Nutrition
+- Provisioning services (medicine, forage, food, timber, firewood)
 
 ## Resources
 
