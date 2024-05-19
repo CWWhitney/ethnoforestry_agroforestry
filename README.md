@@ -4,9 +4,12 @@
 
 Gathering resources, tools, and information related to ethnoforestry. 
 
-Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management - this include agroforestry, an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. 
+Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management - this includes agroforestry, an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. 
 
-Figure Ethnoforestry v2
+## How can ethnoforestry practices, including agroforestry, support sustainable agricultural development and contribute to achieving the Sustainable Development Goals (SDGs)?
+
+Ethnoforestry is the study and practice of the relationship between people and forests, emphasizing the traditional knowledge and cultural practices associated with forest management. It involves understanding how indigenous and local communities interact with forest ecosystems, utilizing their deep-rooted knowledge and sustainable practices to manage and conserve forest resources. Ethnoforestry encompasses various aspects, such as using forests for food, medicine, shelter, and spiritual purposes and practices like agroforestry, where trees and shrubs are integrated with crops and livestock to create more sustainable and productive land use systems.
+
 ![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/b1f80d11-6123-46ac-a8d2-304ec2bd2a9a)
 
 ## Forest management ethnoforestry practices 
