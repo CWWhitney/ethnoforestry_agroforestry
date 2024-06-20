@@ -2,13 +2,13 @@
 
 ## Overview
 
-Gathering resources, tools, and information related to ethnoforestry. 
+We are interested in gathering resources, tools, and information related to ethnoforestry. We are working toward quantifying the effect of applying traditional tree and forest-related-knowledge for tree management in agriculture. Here we define agriculture broadly and consider the diversity of conditions under which humans cultivate and harvest products, including rural and urban conditions, natural forest settings (NTFP) and more formal farming settings such as agroforestry.
 
-Ethnoforestry is the study and practice of the relationship between people and forests, particularly focusing on the traditional knowledge and cultural practices associated with forest management - this includes agroforestry, an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. 
+## Ethnoforestry practices in support of sustainable agriculture
 
-## How can ethnoforestry practices, including agroforestry, support sustainable agricultural development and contribute to achieving the Sustainable Development Goals (SDGs)?
+Ethnoforestry is the study and practice of the relationship between people and forests, emphasizing the traditional knowledge and cultural practices associated with forest management  - this includes agroforestry, an integrated land use management system that combines trees and shrubs with agricultural crops and/or livestock. Ethnoforestry involves understanding traditions and cultural practices regarding how local communities interact with forest ecosystems and manage and conserve forest resources. Ethnoforestry encompasses various aspects, such as using forests for food, medicine, shelter, and cultural purposes, and practices like agroforestry, where trees and shrubs are integrated with crops and livestock to create more sustainable and productive land use systems.
 
-Ethnoforestry is the study and practice of the relationship between people and forests, emphasizing the traditional knowledge and cultural practices associated with forest management. It involves understanding traditions and cultural practices regarding how local communities interact with forest ecosystems and manage and conserve forest resources. Ethnoforestry encompasses various aspects, such as using forests for food, medicine, shelter, and cultural purposes, and practices like agroforestry, where trees and shrubs are integrated with crops and livestock to create more sustainable and productive land use systems.
+Here we provide a graphical overview of tree management for livelihoods and ecosystem outcomes.
 
 ![diagram_forestry drawio](https://github.com/CWWhitney/ethnoforestry_agroforestry/assets/19190662/29b657b0-4d75-4560-a069-cb00f34423d2)
 
@@ -38,17 +38,7 @@ Ethnoforestry is the study and practice of the relationship between people and f
 
 ## Resources
 
-[Status and trends in forest management](https://www.fao.org/3/w9950e/w9950e03.htm)
-
-[terra-i](http://www.terra-i.org/terra-i.html)
-
-[Geo-trees](https://data.geo-trees.org/): Global forest plot data for earth observation and land surface modelling from the GEO-TREES initiative
-
-Data from the University of Maryland and available on [WRI’s Global Forest Watch platform](https://www.globalforestwatch.org/map/?utm_campaign=treecoverloss2022&utm_medium=bitly&utm_source=GlobalForestReview)
-
-Pendrill et al. (2019). Agricultural and forestry trade drives large share of tropical deforestation emissions.
-
-UN Food and Agriculture Organization (FAO). [Forest Resources Assessment](https://fra-data.fao.org/).
+Zotero collection https://www.zotero.org/groups/5297006/ethnoforestry_agroforestry
 
 ## License
 
