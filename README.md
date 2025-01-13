@@ -2,7 +2,7 @@
 
 ## Overview
 
-We are interested in gathering resources, tools, and information related to ethnoforestry. We are working toward quantifying the effect of applying traditional tree and forest-related-knowledge for tree management in agriculture. Here we define agriculture broadly and consider the diversity of conditions under which humans cultivate and harvest products, including rural and urban conditions, natural forest settings (NTFP) and more formal farming settings such as agroforestry.
+Resources, tools, and information related to ethnoforestry. We are working toward quantifying the effect of applying traditional tree and forest-related-knowledge for tree management in agriculture. Here we define agriculture broadly and consider the diversity of conditions under which humans cultivate and harvest products, including rural and urban conditions, natural forest settings (NTFP) and more formal farming settings such as agroforestry.
 
 ## Ethnoforestry practices in support of sustainable agriculture
 
