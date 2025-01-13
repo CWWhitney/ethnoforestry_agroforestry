@@ -373,8 +373,11 @@ source(&quot;functions/create_corpus.R&quot;)</code></pre>
 <pre><code>## No documents dropped after: Remove punctuation</code></pre>
 <pre><code>## No documents dropped after: Remove numbers</code></pre>
 <pre><code>## No documents dropped after: Apply stemming</code></pre>
-<p>We found a total of 182 papers in the Scopus search. We use these to
-create a Term-Document Matrix (TDM).</p>
+<p>There were 188 returns in the Scopus search of Title, Abstract and
+Keywords:
+<code>( &quot;ethnoforest*&quot; OR &quot;traditional ecological knowledge&quot; ) + ( &quot;tree&quot; OR &quot;forest&quot; OR &quot;agroforestry&quot; OR &quot;silviculture&quot; ) + ( &quot;effect&quot; OR &quot;development&quot; OR &quot;improvement&quot; OR &quot;potential&quot; ) + ( &quot;management&quot; OR &quot;use&quot; )</code>.</p>
+<p>Compiling and remove duplicates in Zotero for a total of 182 papers
+in search. Use these to create a Term-Document Matrix (TDM).</p>
 <pre class="r"><code>#TDM
 tdm &lt;- TermDocumentMatrix(corpus)
 
@@ -387,13 +390,25 @@ write.csv(tdm_matrix, &quot;data/term_document_matrix.csv&quot;, row.names = TRU
 <pre class="r"><code># Inspect frequently occurring terms
 term_freq &lt;- rowSums(tdm_matrix)
 term_freq_sorted &lt;- sort(term_freq, decreasing = TRUE)
-head(term_freq_sorted, 20)</code></pre>
-<pre><code>##       and       the  knowledg    forest    tradit    ecolog     manag       for 
-##       115       104        59        57        56        47        47        40 
-##       use   sustain     chang   indigen     local    system   conserv    climat 
-##        31        27        26        20        19        19        18        18 
-## communiti    cultur      fire      from 
-##        16        15        14        14</code></pre>
+head(term_freq_sorted, 50)</code></pre>
+<pre><code>##          and          the     knowledg       forest       tradit       ecolog 
+##          115          104           59           57           56           47 
+##        manag          for          use      sustain        chang      indigen 
+##           47           40           31           27           26           20 
+##        local       system      conserv       climat    communiti       cultur 
+##           19           19           18           18           16           15 
+##         fire         from         case    biodivers     landscap        studi 
+##           14           14           14           14           13           12 
+##      resourc    ecosystem         tree agroforestri        natur        peopl 
+##           11           11           11           11           10           10 
+##       restor         land        plant       implic       impact      develop 
+##           10           10            9            9            9            9 
+##         area       effect         maya    indonesia       toward     northern 
+##            8            8            8            8            8            8 
+##       amazon       region       mexico       servic      central       integr 
+##            8            7            7            7            7            7 
+##     mountain   california 
+##            7            7</code></pre>
 <p>Create an overview of the associations between tree management and
 relevant outcomes from the references.</p>
 <pre class="r"><code>source(&quot;functions/make_association_dataframe.R&quot;)</code></pre>

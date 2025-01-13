@@ -16,7 +16,9 @@ library(NLP)
 source("functions/create_corpus.R")
 ```
 
-We found a total of `r length(corpus)` papers in the Scopus search. We use these to create a Term-Document Matrix (TDM). 
+There were 188 returns in the Scopus search of Title, Abstract and Keywords: `( "ethnoforest*" OR "traditional ecological knowledge" ) + ( "tree" OR "forest" OR "agroforestry" OR "silviculture" ) + ( "effect" OR "development" OR "improvement" OR "potential" ) + ( "management" OR "use" )`. 
+
+Compiling and remove duplicates in Zotero for a total of `r length(corpus)` papers in search. Use these to create a Term-Document Matrix (TDM). 
 
 ```{r create_tdm}
 #TDM
@@ -35,7 +37,7 @@ Create an inspection process for frequently occurring terms.
 # Inspect frequently occurring terms
 term_freq <- rowSums(tdm_matrix)
 term_freq_sorted <- sort(term_freq, decreasing = TRUE)
-head(term_freq_sorted, 20)
+head(term_freq_sorted, 50)
 
 ```
 
