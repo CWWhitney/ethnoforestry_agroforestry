@@ -1,0 +1,141 @@
+---
+title: "Tree management practices and outcomes"
+author: "Cory Whitney"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+
+```
+
+Assess associations between tree management practices and outcomes. Start with term frequency data and bibliographic entries. 
+
+```{r assess_refs}
+library(NLP)
+source("functions/create_corpus.R")
+```
+
+We found a total of `r length(corpus)` papers in the Scopus search. We use these to create a Term-Document Matrix (TDM). 
+
+```{r create_tdm}
+#TDM
+tdm <- TermDocumentMatrix(corpus)
+
+# Convert TDM to a matrix 
+tdm_matrix <- as.matrix(tdm)
+
+# Save the TDM matrix to a file
+write.csv(tdm_matrix, "data/term_document_matrix.csv", row.names = TRUE)
+```
+
+Create an inspection process for frequently occurring terms. 
+
+```{r frequently_occurring_terms}
+# Inspect frequently occurring terms
+term_freq <- rowSums(tdm_matrix)
+term_freq_sorted <- sort(term_freq, decreasing = TRUE)
+head(term_freq_sorted, 20)
+
+```
+
+Create an overview of the associations between tree management and relevant outcomes from the references. 
+
+```{r define_practices_outcomes}
+source("functions/make_association_dataframe.R")
+
+# Save the associations to a CSV file
+write.csv(association_df, "forest_practice_outcome_associations.csv", row.names = FALSE)
+```
+
+A total of `r sum(association_df$Count)` references had some mention of the relevant associations. 
+
+Create an overview the keywords of the outcomes in the reference search. 
+
+```{r check_keywords}
+# Check keyword presence
+keyword_check <- sapply(practices, function(practice) {
+  sum(grepl(practice, text_data, ignore.case = TRUE))
+})
+print(keyword_check)
+```
+Overiew the results of the outcomes in the reference search. 
+
+```{r check_outcomes}
+outcome_check <- sapply(outcomes, function(outcome) {
+  sum(grepl(outcome, text_data, ignore.case = TRUE))
+})
+print(outcome_check)
+```
+Ready the reference data for a plot of associations. 
+
+```{r arrange_plot_associations}
+library(ggplot2)
+library(stringr)
+
+# Create human-readable labels by replacing underscores or capitalization patterns
+association_df$PracticeGroup <- str_replace_all(association_df$PracticeGroup, "_", " ")
+association_df$PracticeGroup <- str_to_title(association_df$PracticeGroup) # Convert to title case
+
+association_df$OutcomeGroup <- str_replace_all(association_df$OutcomeGroup, "_", " ")
+association_df$OutcomeGroup <- str_to_title(association_df$OutcomeGroup) # Convert to title case
+
+```
+
+Create an `OutcomeGroup` and check that the values match categories. 
+
+```{r group_outcomes}
+# Define the outcome categories
+human_development_outcomes <- c("Economic", "Livelihoods", "Nutrition")
+biodiversity_outcomes <- c("Carbon", "Biodiversity", "Ecosystem Services")
+
+# Add the classification column for outcomes
+association_df$OutcomeCategory <- ifelse(
+  association_df$OutcomeGroup %in% human_development_outcomes, 
+  "Human Development",
+  ifelse(
+    association_df$OutcomeGroup %in% biodiversity_outcomes,
+    "Biodiversity",
+    NA  # Assign NA if it doesn't match any category
+  )
+)
+
+# Check for any NA values in OutcomeCategory
+if (any(is.na(association_df$OutcomeCategory))) {
+  warning("Some OutcomeGroup values did not match any category. Please review the data.")
+}
+```
+
+Plot of the associations between tree management and outcomes for people and the environment. 
+
+```{r order_x-axis}
+# Ensure proper ordering of x-axis labels grouped by category
+all_outcomes <- c(human_development_outcomes, biodiversity_outcomes)
+
+association_df$OutcomeGroup <- factor(
+  association_df$OutcomeGroup,
+  levels = all_outcomes
+)
+```
+
+```{r plot_grouped}
+# Bubble plot with grouped x-axis
+ggplot(association_df, aes(x = OutcomeGroup, y = PracticeGroup, size = Count, fill = Count)) +
+  geom_point(shape = 21, color = "black", alpha = 0.7) +
+  scale_fill_gradient(low = "white", high = "blue", name = "Count") +
+  scale_size_continuous(name = "Count", range = c(2, 10)) +
+  labs(
+    title = "Associations Between Forest Practices and Outcomes",
+    x = "Outcome",
+    y = "Forest Practice"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid.major = element_line(color = "gray80", linetype = "dotted"),
+    panel.grid.minor = element_blank()
+  ) +
+  facet_grid(~ OutcomeCategory, scales = "free_x", space = "free")
+```
+
+
