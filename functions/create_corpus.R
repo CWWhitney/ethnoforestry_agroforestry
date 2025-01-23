@@ -14,7 +14,7 @@ bib_entries <- ReadBib(bib_file)
 
 # Save bib keys 
 bib_keys <- names(bib_entries)
-write.csv(bib_keys, "data/bib_keys.csv", row.names = FALSE)
+# write.csv(bib_keys, "data/bib_keys.csv", row.names = FALSE) # large file
 
 # Extract relevant fields: titles, abstracts, and keywords
 titles <- sapply(bib_entries, function(x) x$title)
