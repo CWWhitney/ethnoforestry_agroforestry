@@ -7,21 +7,21 @@ source("functions/create_corpus.R")
 # hard to make.. balance comprehensive with lengthy
 # Group practices and outcomes for aggregation
 practices <- list(
-  Agroforestry = c("agro(forest|forestry)?", "silvo(pastoral|cultural)?", 
-                   "agro-silvo(pastoral|cultural)?", "alley( cropping)?", 
+  Agroforestry = c("agroforest|ri|ry)?", "silvo(pastoral|cultural)?", 
+                   "eco(agriculture|forestry)?", "agro-silvo(pastoral|cultural)?", 
+                   "alley( cropping)?", 
                    "windbreak(s)?", "shelterbelt(s)?", "multistrat(a|as)?"),
-  Community_Forests = c("commun(ity|al)?", "village(s|rs)?", "community( forest| forestry| managed)?",
-                       "community-based( forest| tree)?", "communal lands"),
+  Community_Forests = c("commun(iti|ities|ity|al)?", "village(s|rs)?", "community( forest| forestry| managed)?",
+                       "community-based( forest| tree)?", "communal lands", "tradition(al| ecological knowledge)?", "indig(enous|eneity)?", 
+                       "ethno(forestry|ecology|botany)?", "local( knowledge)?"),
   Silviculture = c("silvi(cultural|culture)?", "timber( management| harvesting)?", 
-                   "plantat(ion|ions)?", "managed forest(s)?", "reforest(ation)?", 
-                   "afforest(ation)?", "forest(ry| stand(s)?)?", "secondary forest(s)?"),
+                   "woodlot(s)?", 
+                   "plantat(ion|ions)?", "managed forest(s)?", "forest(ry| stand(s)?)?", "secondary forest(s)?"),
   Urban_Forests = c("urban( forest| forestry)?", "city( greening)?", "green( belt| space)?", 
                    "peri-urban", "crypto(forest|forestry)?"),
-  Traditional_Knowledge = c("tradition(al| ecological knowledge)?", "indig(enous|eneity)?", 
-          "ethno(forestry|ecology|botany)?", "local( knowledge)?"),
-  Managing_Trees = c("tree( planting| management| care)?", "woodlot(s)?", 
-                            "degraded( forest| land)?", "forest restor(ation)?", 
-                            "natural regeneration", "eco(agriculture|forestry)?")
+  Conservation = c("forest restor(ation)?", "natural regeneration", 
+                   "recreation", "liesure", "habitat restor(ation)?", "national park", 
+                   "park", "protected")
 )
 
 outcomes <- list(
@@ -30,7 +30,8 @@ outcomes <- list(
                "trade", "subsist(ence|ance)?", "employment", "job(s)?"),
   Biodiversity = c("biodiv(erse|ersity)?", "species( richness| diversity)?", 
                    "habitat(s| connectivity)?", "ecosystem(s| services| integrity)?", 
-                   "wildlife", "conservation", "native( species)?"),
+                   "wildlife", "conserv(e|ation)?", "native( species)?", "reforest(ation)?", 
+                   "afforest(ation)?"),
   Carbon = c("carbon( sequestration)?", "climate( mitigation| adaptation)?", 
              "greenhouse( gas| gases)?", "soil( carbon| fertility)?", 
              "emissions reduction", "water( retention| conservation)?"),
