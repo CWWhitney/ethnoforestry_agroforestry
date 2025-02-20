@@ -1,6 +1,7 @@
 library(RefManageR)
 library(tm)
 library(SnowballC)
+library(NLP)
 
 # Load the .bib file
 bib_file <- "refs/scopus.bib"
@@ -29,16 +30,6 @@ corpus <- corpus %>%
   tm_map(removePunctuation) %>%
   tm_map(removeNumbers) %>%
   tm_map(removeWords, stopwords("en")) %>%
-  tm_map(stripWhitespace) 
-
-# Preprocessing with logging
-# check for dropped papers
-source("functions/log_dropped_docs.R")
-corpus <- Corpus(VectorSource(all_text))
-
-corpus <- log_dropped_docs(corpus, content_transformer(tolower), "Convert to lowercase")
-corpus <- log_dropped_docs(corpus, removePunctuation, "Remove punctuation")
-corpus <- log_dropped_docs(corpus, removeNumbers, "Remove numbers")
-# corpus <- log_dropped_docs(corpus, removeWords, stopwords("en"), "Remove stopwords")
-corpus <- log_dropped_docs(corpus, stemDocument, "Apply stemming")
+  tm_map(stemDocument) %>%  # Add stemming
+  tm_map(stripWhitespace)
 
