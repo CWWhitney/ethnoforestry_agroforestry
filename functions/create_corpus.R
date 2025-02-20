@@ -1,8 +1,3 @@
-# Install required packages if not already installed
-if (!requireNamespace("RefManageR", quietly = TRUE)) install.packages("RefManageR")
-if (!requireNamespace("tm", quietly = TRUE)) install.packages("tm")
-if (!requireNamespace("SnowballC", quietly = TRUE)) install.packages("SnowballC")
-
 library(RefManageR)
 library(tm)
 library(SnowballC)
@@ -10,6 +5,7 @@ library(SnowballC)
 # Load the .bib file
 bib_file <- "refs/scopus.bib"
 bib_entries <- ReadBib(bib_file)
+
 # excluding all conference papers
 
 # Save bib keys 
@@ -28,11 +24,12 @@ all_text <- mapply(function(t, a, k) paste(t, a, k, sep = " "), titles, abstract
 corpus <- Corpus(VectorSource(all_text))
 
 # Preprocess the text
-corpus <- tm_map(corpus, content_transformer(tolower)) # Convert to lowercase
-corpus <- tm_map(corpus, removePunctuation)           # Remove punctuation
-corpus <- tm_map(corpus, removeNumbers)               # Remove numbers
-corpus <- tm_map(corpus, removeWords, stopwords("en"))# Remove common stopwords
-corpus <- tm_map(corpus, stemDocument)                # Apply stemming
+corpus <- corpus %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removeWords, stopwords("en")) %>%
+  tm_map(stripWhitespace) 
 
 # Preprocessing with logging
 # check for dropped papers
