@@ -7,13 +7,54 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 
+library(bibtex)
+library(tm)
+library(tidyverse)
+
 ```
 
 Assess associations between tree management practices and outcomes. Start with term frequency data and bibliographic entries. 
 
 ```{r assess_refs, warning = FALSE, message=FALSE}
-library(NLP)
-source("functions/create_corpus.R")
+
+# Load BibTeX data
+bib_data <- read.bib("refs/scopus.bib")
+bib_keys <- sapply(bib_data, function(x) x$key)
+
+# Extract text (title + abstract)
+bib_df <- data.frame(
+  key = bib_keys,
+  text = sapply(bib_data, function(x) paste(x$title, x$abstract, x$keywords, sep = " "))
+)
+```
+
+Preprocess the text corpus
+
+```{r pre_process_bib_data, warning = FALSE, message=FALSE}
+
+corpus <- VCorpus(VectorSource(bib_df$text))
+corpus <- corpus %>%
+  tm_map(content_transformer(tolower)) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removeWords, stopwords("en")) %>%
+  tm_map(stemDocument) %>%  # Add stemming
+  tm_map(stripWhitespace)
+
+```
+
+Check for dropped papers
+
+```{r check_dropped_documents, warning = FALSE, message=FALSE}
+
+source("functions/log_dropped_docs.R")
+
+corpus <- log_dropped_docs(corpus, content_transformer(tolower), "Convert to lowercase")
+corpus <- log_dropped_docs(corpus, removePunctuation, "Remove punctuation")
+corpus <- log_dropped_docs(corpus, removeNumbers, "Remove numbers")
+# corpus <- log_dropped_docs(corpus, removeWords, stopwords("en"), "Remove stopwords")
+corpus <- log_dropped_docs(corpus, stemDocument, "Apply stemming")
+
 ```
 
 There were 7,876 returns in the Scopus search of Title, Abstract and Keywords: `( "agroforestry" OR "silviculture" OR "conservation forest" OR "community forest" ) + ( "effect" OR "development" OR "improvement" OR "potential" ) + ( "management" )`. 
@@ -27,8 +68,6 @@ tdm <- TermDocumentMatrix(corpus)
 # Convert TDM to a matrix 
 tdm_matrix <- as.matrix(tdm)
 
-# Save the TDM matrix to a file
-# write.csv(tdm_matrix, "data/term_document_matrix.csv", row.names = TRUE) # large data
 ```
 
 Create an inspection process for frequently occurring terms. 
@@ -44,23 +83,22 @@ head(term_freq_sorted, 50)
 Create an overview of the associations between tree management and relevant outcomes from the references. 
 
 ```{r define_practices_outcomes, warning = FALSE, message=FALSE}
-source("functions/make_association_dataframe.R")
-
-# Save the associations to a CSV file
-# write.csv(association_df, "data/forest_practice_outcome_associations.csv", row.names = FALSE) # very large data
+# source("functions/make_association_dataframe.R") # deprecated
+source("functions/workflow_for_each_paper.R")
+# takes a while to run
 ```
 
-
-Create an overview the keywords of the outcomes in the reference search. 
+Create an overview of practice keywords in the reference search. 
 
 ```{r check_keywords}
 # Check keyword presence
-keyword_check <- sapply(practices, function(practice) {
+practice_check <- sapply(practices, function(practice) {
   sum(grepl(practice, text_data, ignore.case = TRUE))
 })
-print(keyword_check)
+print(practice_check)
 ```
-Overiew the results of the outcomes in the reference search. 
+
+Overview the results of the outcome keywords in the reference search. 
 
 ```{r check_outcomes, warning = FALSE, message=FALSE}
 outcome_check <- sapply(outcomes, function(outcome) {
@@ -68,6 +106,7 @@ outcome_check <- sapply(outcomes, function(outcome) {
 })
 print(outcome_check)
 ```
+
 Ready the reference data for a plot of associations. 
 
 ```{r arrange_plot_associations, warning = FALSE, message=FALSE}
