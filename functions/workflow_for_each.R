@@ -1,27 +1,3 @@
-# Load libraries
-library(bibtex)
-library(tm)
-library(tidyverse)
-
-# Load BibTeX data
-bib_data <- read.bib("refs/scopus.bib")
-bib_keys <- sapply(bib_data, function(x) x$key)
-
-# Extract text (title + abstract)
-bib_df <- data.frame(
-  key = bib_keys,
-  text = sapply(bib_data, function(x) paste(x$title, x$abstract, sep = " "))
-)
-
-# Preprocess the text corpus
-corpus <- VCorpus(VectorSource(bib_df$text))
-corpus <- corpus %>%
-  tm_map(content_transformer(tolower)) %>%
-  tm_map(removePunctuation) %>%
-  tm_map(removeNumbers) %>%
-  tm_map(removeWords, stopwords("en")) %>%
-  tm_map(stripWhitespace)
-
 # # Define keywords for practices and outcomes
 # hard to make.. balance comprehensive with lengthy
 # Group practices and outcomes for aggregation
