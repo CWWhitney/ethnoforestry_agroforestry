@@ -92,7 +92,7 @@ source("functions/workflow_for_each_paper.R")
 Create an overview of practice keywords in the reference search. 
 
 ```{r check_keywords}
-# Check keyword presence
+# Check keyword presence (check how often practices show up in the literature)
 practice_check <- sapply(practices, function(practice) {
   sum(grepl(practice, text_data, ignore.case = TRUE))
 })
@@ -102,6 +102,7 @@ print(practice_check)
 Overview the results of the outcome keywords in the reference search. 
 
 ```{r check_outcomes, warning = FALSE, message=FALSE}
+# (check how often outcomes show up in the literature)
 outcome_check <- sapply(outcomes, function(outcome) {
   sum(grepl(outcome, text_data, ignore.case = TRUE))
 })
