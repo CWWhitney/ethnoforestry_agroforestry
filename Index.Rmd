@@ -84,8 +84,7 @@ head(term_freq_sorted, 50)
 Create an overview of the associations between tree management and relevant outcomes from the references. 
 
 ```{r define_practices_outcomes, warning = FALSE, message=FALSE}
-# source("functions/make_association_dataframe.R") 
-source("functions/workflow_for_each_paper.R")
+source("functions/workflow_tkik_outcomes.R")
 # takes a while to run
 ```
 
