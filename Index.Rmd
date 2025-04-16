@@ -2,6 +2,7 @@
 title: "Tree management practices and outcomes"
 author: "Cory Whitney"
 output: html_document
+bibliography: refs/scopus.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -84,7 +85,7 @@ head(term_freq_sorted, 50)
 Create an overview of the associations between tree management and relevant outcomes from the references. 
 
 ```{r define_practices_outcomes, warning = FALSE, message=FALSE}
-source("functions/workflow_tkik_outcomes.R")
+source("functions/workflow_for_each_paper.R")
 # takes a while to run
 ```
 
@@ -182,4 +183,50 @@ association_plot
 ggsave(filename = "figures/association_plot.png", plot = association_plot, width = 5, height = 5, bg = "white")
 ```
 
+
+## For 
+
+Get the references. 
+
+```{r tkik_define_practices_outcomes, warning = FALSE, message=FALSE}
+source("functions/workflow_tkik_outcomes.R")
+# takes a while to run
+```
+
+Create an overview of practice keywords in the reference search. 
+
+```{r tkik_check_keywords}
+# Check keyword presence (check how often practices show up in the literature)
+tkik_practice_check <- sapply(tkik_practices, function(practice) {
+  sum(grepl(practice, tkik_text_data, ignore.case = TRUE))
+})
+print(tkik_practice_check)
+
+write_csv(tkik_association_df, "data/tkik_association_df.csv")
+
+```
+
+```{r tkik_association_df, echo=FALSE, results='asis'} 
+
+# Simple conversion of BibKeys to @BibKey format
+for (i in seq_len(nrow(tkik_association_df))) {
+  # Extract and clean BibKeys
+  keys <- tkik_association_df$BibKeys[i]
+  keys <- gsub("^;\\s*|\\s*$", "", keys)        # Remove leading/trailing semicolons and spaces
+  keys <- unlist(strsplit(keys, ";\\s*"))       # Split into individual keys
+  keys <- paste0("@", keys)                     # Add @ to each BibKey
+  keys_text <- paste(keys, collapse = ", ")     # Collapse into a single line
+
+  # Print simple sentence
+  cat("There were", tkik_association_df$Count[i], 
+      "citations related to", 
+      tkik_association_df$PracticeGroup[i], 
+      "and", 
+      tkik_association_df$OutcomeGroup[i], 
+      "; they were", keys_text, ".\n\n")
+}
+
+```
+
+# References
 
