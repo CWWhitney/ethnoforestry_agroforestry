@@ -8,7 +8,7 @@ practices <- list(
                    "windbreak(s)?", "shelterbelt(s)?", "multistrat(a|as)?"),
   Community_Forests = c("commun(iti|ities|ity|al)?", "village(s|rs)?", "community( forest| forestry| managed)?",
                         "community-based( forest| tree)?", "communal lands", "tradition(al| ecological knowledge)?", "indig(enous|eneity)?", 
-                        "ethno(forestry|ecology|botany)?", "local( knowledge)?"),
+                        "ethno(-|forestry|ecology|botany)?", "local( knowledge)?"),
   Silviculture = c("silvi(cultural|culture)?", "timber( management| harvesting)?", 
                    "woodlot(s)?", 
                    "plantat(ion|ions)?", "managed forest(s)?", "forest(ry| stand(s)?)?", "secondary forest(s)?"),
