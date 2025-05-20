@@ -40,6 +40,8 @@ Here we provide a graphical overview of tree management for livelihoods and ecos
 
 Google Doc: https://docs.google.com/document/d/10ly3B1CIlTH4YZYq5gtUgq8N-NvDqnTsYwN_TW91A8E/edit
 
+Status of Project as of 20.5.2025: https://docs.google.com/document/d/1UIYmk7qZcKvyKn_q_7gXbHrGvCdXbKnU1BCfsE8C7aI/edit?tab=t.0 
+
 Zotero collection https://www.zotero.org/groups/5297006/ethnoforestry_agroforestry
 
 Draw.io https://app.diagrams.net/#HCWWhitney%2Fethnoforestry_agroforestry%2Fmain%2Fdiagram_forestry.drawio#%7B%22pageId%22%3A%22ad52d381-51e7-2e0d-a935-2d0ddd2fd229%22%7D
