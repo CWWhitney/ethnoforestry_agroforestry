@@ -9,6 +9,7 @@ bibliography: refs/scopus.bib
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
 
 library(bibtex)
+library(SnowballC)
 library(tm)
 library(tidyverse)
 
@@ -180,11 +181,11 @@ association_plot <- ggplot(association_df, aes(x = OutcomeGroup, y = PracticeGro
 
 association_plot
 
-ggsave(filename = "figures/association_plot.png", plot = association_plot, width = 5, height = 5, bg = "white")
+ggsave(filename = "figures/association_plot.png", plot = association_plot, width = 8, height = 5, bg = "white")
 ```
 
 
-## For 
+## Overview of References
 
 Get the references. 
 
