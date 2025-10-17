@@ -2,7 +2,7 @@
 title: "Leveraging Ethnoforestry to Inform Tree and Agroforestry Management for Sustainable Development"
 subtitle: "The 6th World Congress on Agroforestry 2025"
 author: "Cory Whitney¹, Andrew Marcil²"
-institute: "¹University of Bonn, Germany, ²Independent Scholar, Canada"
+institute: "¹University of Bonn, Germany,<br> ²Independent Scholar, Canada"
 date: "Kigali, Rwanda | 20-24 October 2025"
 output:
   xaringan::moon_reader:
@@ -12,27 +12,6 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
----
-
-class: title-slide, center, middle
-
-# Leveraging Ethnoforestry to Inform Tree and Agroforestry Management for Sustainable Development
-
-### Agroforestry for Biodiversity and Ecosystem Services
-
-<br>
-
-**Cory Whitney**¹, **Andrew Marcil**²
-
-<small>¹Institute for Crop Science and Resource Conservation (INRES), University of Bonn, Germany<br>
-²Independent Scholar, Calgary, Canada</small>
-
-<br>
-
-<small>The 6th World Congress on Agroforestry 2025<br>
-*Agroforestry for People, Planet & Profit*<br>
-Kigali, Rwanda | 20-24 October 2025</small>
-
 ---
 
 # The Global Challenge & The Untapped Opportunity
@@ -60,6 +39,12 @@ Kigali, Rwanda | 20-24 October 2025</small>
 ]
 
 ---
+# Conceptual - Human and Biodiversity Outcomes
+.center[
+![Conceptual Model](Figures/conceptual_model_short.png) 
+]
+
+---
 
 # Our Research Approach & Conceptual Model
 
@@ -73,10 +58,9 @@ Systematically explore how ethnoforestry contributes to sustainable and producti
 1. **Systematic Literature Review**
    - Keywords: "ethnoforestry," "TEK," "biodiversity," "development"
    - Databases: Web of Science, Scopus
-   - 20+ papers analyzed
-
-2. **Probabilistic Modeling**
-   - Assess impacts and outcomes
+   - Remove erroneous papers
+   - Annotate 7000+ papers
+   - Create a Term-Document Matrix (TDM)
 ]
 
 
@@ -90,49 +74,65 @@ Shows how **Tree Management** informed by TEK drives outcomes for both **Livelih
 ]
 
 ---
-
-# Key Finding 1: Enhanced Biodiversity & Ecosystem Services
+# Outcomes - Evidence Base
 
 .pull-left[
-### Ecological Benefits:
-- Increased Biodiversity
-- Carbon Sequestration
-- Ecosystem Services
-
+### ** Provides data-driven foundation for integrating TEK into policy and practice ** 
+### Shows strong positive links between:
+- Ethnoforestry practices
+- Biodiversity outcomes
+- Human development indicators
 ]
 
 .pull-right[
-### **Key Results**
+### ** Association Plot **
+![Association Plot](figures/association_plot.png)
+n = 7426 papers
+]
 
-- **🌳 Increased Biodiversity**
+---
+# Outcomes - Association Plot
+.center[
+![Association Plot](figures/association_plot_short.png)
+]
+
+---
+
+# Key Finding 1: Enhanced Biodiversity & Ecosystem Services
+
+## **Key Results**
+
+.pull-left[
+
+**Increased Biodiversity**
   - Greater species richness
   - Enhanced habitat complexity
 
-- **♻️ Enhanced Carbon Sequestration**
-  - Sustainable secondary forest use
-  - Maintained carbon stocks
-
-- **💧 Improved Ecosystem Services**
+**Improved Ecosystem Services**
   - Water regulation
   - Soil health
   - Pollination services
 
 **Transforms degraded lands into ecologically functional systems**
-]
-
----
-
-# Key Finding 2: Strengthened Livelihoods & Social Equity
-
-.pull-left[
-### Socio-Economic Benefits
-- Income, Diversified streams of income
-- Poverty Alleviation
-- Equity and Gender equality
 
 ]
 
 .pull-right[
+**Socio-Economic Benefits**
+- Income, Diversified streams of income
+- Poverty Alleviation
+- Equity and Gender equality
+
+**Enhanced Carbon Sequestration**
+  - Sustainable secondary forest use
+  - Maintained carbon stocks
+  
+]
+
+---
+# Key Finding 2: Strengthened Livelihoods & Social Equity
+
+.pull-left[
 ### **Key Enablers for Success**
 
 - **Secure Land Tenure**
@@ -148,42 +148,6 @@ Shows how **Tree Management** informed by TEK drives outcomes for both **Livelih
   - Value chains for ethnoforestry products
 ]
 
----
-
-# Association Plot of Forest Practices and Outcomes
-
-.center[
-
-![Association Plot](figures/association_plot.png){height=50%}
-]
-
----
-# Visual Evidence from Literature Review
-
-.pull-left[
-### Shows strong positive links between:
-- Ethnoforestry practices
-- Biodiversity outcomes
-- Human development indicators
-]
-
-.pull-right[
-### Provides data-driven foundation for integrating TEK into policy and practice
-![Association Plot](figures/association_plot.png)
-]
-
----
-
-# The Path to Implementation: Addressing Barriers
-
-.pull-left[
-### Key Socio-Economic Barriers:
--Land Tenure
--Market Access
--Policy
--Knowledge
-
-]
 
 .pull-right[
 ### **Solutions for Scaling**
@@ -203,7 +167,6 @@ Shows how **Tree Management** informed by TEK drives outcomes for both **Livelih
 ]
 
 ---
-
 # Next Steps & Future Research
 
 .pull-left[
@@ -254,6 +217,7 @@ knitr::kable(repo_info, col.names = c("", "", ""))
 
 **Repository:**  
 [https://github.com/CWWhitney/ethnoforestry_agroforestry](https://github.com/CWWhitney/ethnoforestry_agroforestry)
+![Conceptual Model](Figures/conceptual_model.png)
 ]
 
 .pull-right[
