@@ -2,8 +2,19 @@
 title: "Tree management practices and outcomes"
 author: "Cory Whitney"
 output: html_document
-bibliography: refs/scopus.bib
+bibliography: [refs/scopus.bib, refs/references.bib]
 ---
+<!-- , refs/references.bib -->
+
+## Introduction 
+
+Forested areas occupy approximately 31% of the world's land surface yet disproportionately contribute to global biodiversity, carbon sequestration, and provisioning services [@fao2024; @vie2009]. Despite their critical ecological role, forests face extreme demands for products, with land conversion and agricultural expansion representing the most significant and detrimental pressures. The challenge is to improve management practices to benefit both the environment and communities without sacrificing economic and developmental needs.
+
+A substantial portion of global forests are dedicated to production. Currently, 28% of forests are managed primarily for production, and another 18% for multiple uses, which can include intensive production, collectively representing nearly half of all forests with designated management objectives [@fao2020]. Furthermore, an estimated 70% of global forests show clear effects of human activity, classified as secondary or otherwise altered [@fao2020; @fao2022]. This presents a significant opportunity for adaptive management. Given that demand for wood products continues to rise, reaching 4 billion m³ annually [@fao2024], and alternatives like agricultural fibers or mycelium composites face substantial barriers to large-scale adoption [@jones2020; @nietzel2022], sustainable wood production from these non-primary forests is crucial.
+
+This work explores how traditional knowledge (TK) can be applied to enhance the sustainability and productivity of forest and tree management. A key application is in agroforestry—the integration of trees into human-managed landscapes—which is rooted in practices used for millennia by traditional cultures [@michon2005]. Many landscapes now considered "undisturbed" forest have, in reality, been shaped by historical human manipulation [@willis2004]. Modern agroforestry systems, inspired by these practices, can provide a wide range of materials, potentially creating novel sources of woody biomass and alleviating pressure on primary forests.
+
+Leveraging TK also serves to preserve this important knowledge base, which is often at risk of being lost. For instance, ethnobotanical studies have documented plant uses but frequently fail to capture the associated knowledge of cultivation and landscape integration [@kujawska2015]. Applying TK to manage secondary forests is particularly relevant. Since these forests already deviate from primary conditions, they offer flexibility for management interventions, such as pruning and thinning, which can enhance carbon sequestration and provide communities with fuel wood while increasing yield potential [@ameray2021]. However, community management faces challenges, as even the harvest of non-timber forest products can have negative ecological impacts if not aligned with sustainable practices [@garcia_fernandez2008]. Therefore, integrating TK with scientific knowledge offers a pathway to foster healthier, more productive forests that support livelihoods while maintaining ecological function.
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
@@ -15,7 +26,22 @@ library(tidyverse)
 
 ```
 
-Assess associations between tree management practices and outcomes. Start with term frequency data and bibliographic entries. 
+## Processing the papers
+
+
+### Search Query 
+
+Search in Scopus within ‘Article Title, Abstract, Keywords’
+
+( "ethnoforest*" OR "traditional ecological knowledge" ) + ( "tree" OR "forest" OR "agroforestry" OR "silviculture" ) + ( "effect" OR "development" OR "improvement" OR "potential" ) + ( "management" OR "use" )
+
+Revealed 188 results
+
+This analysis maps the scientific literature to answer two questions:
+
+- What are the dominant themes in the broad literature on sustainable forest management? (Based on the large Scopus corpus).
+
+- More specifically, what practices and outcomes are most associated with Traditional Knowledge and Ethnoforestry? (Based on the targeted TK corpus). This second question directly addresses the potential of TK outlined in the introduction.
 
 ```{r assess_refs, warning = FALSE, message=FALSE}
 
@@ -149,6 +175,8 @@ if (any(is.na(association_df$OutcomeCategory))) {
 }
 ```
 
+## Associations in the Tree Management Practices Literature
+
 Plot of the associations between tree management and outcomes for people and the environment. 
 
 ```{r order_x-axis}
@@ -183,7 +211,6 @@ association_plot
 
 ggsave(filename = "figures/association_plot.png", plot = association_plot, width = 8, height = 5, bg = "white")
 ```
-
 
 ## Overview of References
 
@@ -228,6 +255,56 @@ for (i in seq_len(nrow(tkik_association_df))) {
 }
 
 ```
+
+# Associations in the Traditional Knowledge Literature
+
+To specifically address the research questions about traditional knowledge, we analyzed a targeted corpus of 188 papers from our ethnoforestry search. This focused analysis reveals distinct patterns in how traditional knowledge interfaces with forest management.
+
+```{r tk_bubble_plot, warning=FALSE}
+# Prepare the data for plotting - using the same outcome grouping logic
+tkik_association_df$OutcomeGroup <- factor(
+  tkik_association_df$OutcomeGroup,
+  levels = all_outcomes
+)
+
+# Add the same outcome category classification
+tkik_association_df$OutcomeCategory <- ifelse(
+  tkik_association_df$OutcomeGroup %in% human_development_outcomes, 
+  "Human Development",
+  ifelse(
+    tkik_association_df$OutcomeGroup %in% biodiversity_outcomes,
+    "Biodiversity",
+    NA
+  )
+)
+
+# Create the bubble plot for TK literature
+tk_association_plot <- ggplot(tkik_association_df, 
+                             aes(x = OutcomeGroup, y = PracticeGroup, size = Count)) +
+  geom_point(shape = 21, color = "black", alpha = 0.7, fill = "darkgreen") + 
+  scale_size_continuous(name = "Count", range = c(2, 12)) +
+  labs(
+    title = "Associations in Traditional Knowledge Literature",
+    subtitle = "Forest practices and outcomes from targeted TK/ethnoforestry research",
+    x = "Outcome",
+    y = "Forest Practice"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    panel.grid.major = element_line(color = "gray80", linetype = "dotted"),
+    panel.grid.minor = element_blank()
+  ) +
+  facet_grid(~ OutcomeCategory, scales = "free_x", space = "free")
+
+tk_association_plot
+
+ggsave(filename = "figures/tk_association_plot.png", plot = tk_association_plot, 
+       width = 8, height = 5, bg = "white")
+```
+
+Derived from the targeted TK literature, shows that 'Community Management' is strongly associated with 'Livelihood' outcomes, directly supporting the introductory claim that community forests can alleviate poverty. Furthermore, associations between 'Species Selection' and 'Biodiversity' illustrate how TK can inform management for healthier ecosystems.
+
 
 # References
 
