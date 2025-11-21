@@ -35,7 +35,7 @@ outcomes <- list(
                 "stunt(ing|ed)?", "healthy( diet| foods)?", "food(s| environment)?"),
   Livelihoods = c("liveli(hood|hoods)?", "poverty( alleviation| reduction)?", 
                   "resilience", "sustainability", "rural( development| livelihoods)?", 
-                  "well-being", "gender( equality| equity)?", "autonomy"),
+                  "well-being", "gender( equality| equity)?", "autonomy", "land rights"),
   Ecosystem_Services = c("ecosystem(s| services)?", "provisioning", "cultural(value| heritage)?", 
                          "supporting", "regulating", "biodiversity( hotspot)?")
 )
